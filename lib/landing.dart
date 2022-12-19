@@ -23,9 +23,9 @@ class LandingPage extends StatelessWidget {
             color: Colors.white,
             child: Table(
               columnWidths: const <int, TableColumnWidth>{
-                0: FixedColumnWidth(230),
+                0: FractionColumnWidth(0.2),
                 1: FixedColumnWidth(75),
-                2: FixedColumnWidth(230),
+                2: FractionColumnWidth(0.2),
               },
               children: <TableRow>[
                 TableRow(

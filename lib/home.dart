@@ -41,7 +41,7 @@ class MainPage extends StatelessWidget {
       body: Center(
         child: Container(
           width: 700,
-          padding: const EdgeInsets.all(0),
+          padding: const EdgeInsets.all(30),
           child: Table(
             children: <TableRow> [
               const TableRow(
