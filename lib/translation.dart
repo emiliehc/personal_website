@@ -9,7 +9,7 @@ enum WebText {
 
 const Map<WebText, String> webTextEn = {
   WebText.welcomeMessage: 'Hello, my name is Emilie Chen and I am a third '
-      'year (U2) computer science student at McGill University. I\'m interested'
+      'year (U2) computer science student at McGill University. I\'m interested '
       'in programming and game development. Here\'s my CV and some of the '
       'projects that I\'m proud of.\n'
       'If you are interested in contacting me, don\'t hesitate to shoot me a'
