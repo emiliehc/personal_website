@@ -1,10 +1,9 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:personal_website/translation.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'cv.dart';
 import 'main.dart';
 
 class MainPageArguments {
@@ -91,8 +90,7 @@ class MainPage extends StatelessWidget {
                           IconButton(
                             padding: const EdgeInsets.all(10),
                             onPressed: () {
-                              launchWebsite(Uri.parse(
-                                  "https://www.linkedin.com/in/emilie-h-c/overlay/1635502840992/single-media-viewer/"));
+                              Navigator.pushNamed(context, CVPage.route);
                             },
                             icon: const Icon(Entypo.text_document),
                           ),

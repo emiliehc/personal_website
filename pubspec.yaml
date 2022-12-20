@@ -39,6 +39,8 @@ dependencies:
   tuple: ^2.0.1
   url_launcher: ^6.1.7
   flutter_vector_icons: ^2.0.0
+  pdf: ^3.8.4
+  pdfx: ^2.3.0
 
 dev_dependencies:
   flutter_test:

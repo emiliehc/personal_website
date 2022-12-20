@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:personal_website/cv.dart';
 import 'package:personal_website/home.dart';
 
 import 'landing.dart';
@@ -29,6 +30,9 @@ class MyApp extends StatelessWidget {
         MainPage.routeFr: (context) {
           setLanguage(Language.fr);
           return const MainPage();
+        },
+        CVPage.route: (context) {
+          return const CVPage();
         },
       },
     );
