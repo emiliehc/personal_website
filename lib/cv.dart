@@ -3,8 +3,12 @@ import 'dart:html' as html;
 import 'package:flutter/cupertino.dart';
 import 'package:pdfx/pdfx.dart';
 
-afterDocumentLoad() async {
+import 'home.dart';
 
+afterDocumentLoad() async {
+  const actualRemoteUrl = "https://github.com/emiliehc/personal_website/raw/master/assets/images/Emilie_Chen_CV.pdf";
+  final remoteUri = Uri.parse(actualRemoteUrl);
+  await launchWebsite(remoteUri);
 }
 
 class CVPage extends StatelessWidget {
