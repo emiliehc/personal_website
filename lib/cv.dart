@@ -29,7 +29,9 @@ class CVPage extends StatelessWidget {
         await afterDocumentLoad();
       },
       onDocumentError: (error) async {
-        await afterDocumentLoad();
+        final future = afterDocumentLoad();
+        Navigator.of(context).pop();
+        await future;
       },
     );
   }
