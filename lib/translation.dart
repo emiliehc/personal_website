@@ -4,7 +4,7 @@ import 'home.dart';
 import 'main.dart';
 
 enum WebText {
-  welcomeMessage,
+  welcomeMessage, home,
 }
 
 const Map<WebText, String> webTextEn = {
@@ -13,7 +13,8 @@ const Map<WebText, String> webTextEn = {
       'in programming and game development. Here\'s my CV and some of the '
       'projects that I\'m proud of.\n'
       'If you are interested in contacting me, don\'t hesitate to shoot me a'
-      'message on LinkedIn or reach me via email.'
+      'message on LinkedIn or reach me via email.',
+  WebText.home: 'Home',
 };
 
 const Map<WebText, String> webTextFr = {
@@ -24,6 +25,7 @@ const Map<WebText, String> webTextFr = {
       'suis fière. \n'
       'Si vous êtes intéressé·e à me contacter, n\'hésitez pas à '
       'me laisser un message sur LinkedIn ou par courriel.',
+  WebText.home: 'Accueil',
 };
 
 String translateText(WebText text) {
