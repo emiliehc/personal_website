@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 import 'main.dart';
 
-const versionText = "Dernière mise à jour : mar 20 déc 2022 00 h 09 HNE";
+const versionText = "Dernière mise à jour : mercredi 21 déc 2022 00 h 19 HNE";
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
